@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../complemetos/recurses/imagenes/fondo\ boca.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: gold;
+}
+
+
+h1 {
+    color: gold;
+    margin-right: 600px;
+    margin-left: 600px;
+    padding: 2rex;
+    text-align: center;
+    background-color: blue;
+    
+}
+
+@media (max-width: 760px) {
+    .h1 {
+        color: black;
+    }
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    max-width: 1000px;
+    margin: unset;
+}
+
+.menu li ul {
+    display: none;
+    position: absolute;
+    min-width: 140px;
+}
+
+.menu li:hover>ul {
+    display: block;
+}
+
+ul.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    display: block;
+}
+
+.menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover {
+    background: gold;
+}
+
+.titu1 {
+    font-style: italic;
+}
+
+.titu2 {
+    color: gold;
+}
+
+.parrafo {
+    color: gold;
+    display: block;
+    margin-block-start: 10px;
+    margin-block-end: 40px;
+    margin-inline-start: 40px;
+    margin-inline-end: 500px;
+    size: 50px;
+    background-color: blue;
+}
+
+.h1-linea {
+    color: gold;
+}
+
+.titulo-finales {
+    color: gold;
+}
+
+.links {
+    color: blueviolet;
+}
+
+.equipos {
+    width: 200px;
+    height: 200px;
+}
+
+
+.trofeos {
+    width: 99%;
+    height: 90%;
+    margin: auto;
+    border: 5px solid red;
+}
+
+@media(max-width: 425px) {
+    .fotos {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color_: cyan
+    }
+}
+
+@media (max-width: 760px) {
+    .fotos{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color: black;
+    }
+}
+
+@media (max-width: 760px) {
+    .menu{
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color: rgb(224, 76, 23);
+    }
+}
+@media(max-width: 425px) {
+    .fotos {
+        margin-right: 30px;
+        margin-left: 30px;
+        padding: 2rex;
+        text-align: center;
+        color: sienna;
+    }
+}
+
